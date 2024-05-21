@@ -6,4 +6,3 @@ function task(num1, num2){
         }
     }
 }
-task(2154, 458)
