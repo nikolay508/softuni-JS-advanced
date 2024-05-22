@@ -4,4 +4,3 @@ function task(str){
     let words = text.split(/\s+/)
     console.log(words.join(', ').toUpperCase())
 }
-task('hello')
