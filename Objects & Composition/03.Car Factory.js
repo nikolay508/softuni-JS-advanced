@@ -18,6 +18,5 @@ function task(obj){
     }
     result.wheels = new Array(4).fill(wheel);
 
-    console.log(result);
     return result;
 }
