@@ -1,5 +1,5 @@
 function task(arr){
-    let finalArr = []
+    let finalArr = [];
 
     for(const str of arr){
         let [name, level, items] = str.split(' / ');
