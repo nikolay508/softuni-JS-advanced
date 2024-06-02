@@ -1,27 +1,27 @@
 function task(speed, area){
-    let maxSpeed = 0
+    let maxSpeed = 0;
     if(area === 'motorway'){
-        maxSpeed = 130
+        maxSpeed = 130;
     }else if(area === 'interstate'){
-        maxSpeed = 90
+        maxSpeed = 90;
     }else if(area === 'city'){
-        maxSpeed = 50
+        maxSpeed = 50;
     }else if(area === 'residential'){
-        maxSpeed = 20
+        maxSpeed = 20;
     }
 
     if(speed <= maxSpeed){
-        console.log(`Driving ${speed} km/h in a ${maxSpeed} zone`)
+        console.log(`Driving ${speed} km/h in a ${maxSpeed} zone`);
     }else if(speed > maxSpeed){
-        let difference = speed - maxSpeed
-        let status = ''
+        let difference = speed - maxSpeed;
+        let status = '';
         if(difference <= 20){
-            status = 'speeding'
+            status = 'speeding';
         }else if(difference <= 40){
-            status = 'excessive speeding'
+            status = 'excessive speeding';
         }else{
-            status = 'reckless driving'
+            status = 'reckless driving';
         }
-        console.log(`The speed is ${difference} km/h faster than the allowed speed of ${maxSpeed} - ${status}`)
+        console.log(`The speed is ${difference} km/h faster than the allowed speed of ${maxSpeed} - ${status}`);
     }
 }
