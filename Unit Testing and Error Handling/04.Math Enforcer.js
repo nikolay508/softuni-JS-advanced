@@ -95,4 +95,5 @@ describe('maths', ()=>{
             expect(mathEnforcer.sum(2.5, 2.3)).to.equal(4.8);
         })
     })
+    
 })
