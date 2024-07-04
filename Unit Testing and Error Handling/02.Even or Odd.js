@@ -19,4 +19,5 @@ describe('String', ()=>{
     it('should be odd', ()=>{
         expect(isOddOrEven('maths', 'heyy', 'wassup')).to.equal('odd');
     })
+    
 })
