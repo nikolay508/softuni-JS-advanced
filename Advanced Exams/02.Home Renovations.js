@@ -44,9 +44,9 @@ class HomeRenovation{
         }
 
         if(this.isTherePriorities === false){
-            return `No tasks found with priority ${minimalPriority} or higher.`
+            return `No tasks found with priority ${minimalPriority} or higher.`;
         }else{
-            return `You have ${this.tasksCount} tasks to prioritize.`
+            return `You have ${this.tasksCount} tasks to prioritize.`;
         }
     }
 
@@ -56,9 +56,9 @@ class HomeRenovation{
         }
         this.allFromTasks = '';
         for (const each of this.tasks) {
-            this.allFromTasks += `${each.description} - Cost: ${each.cost}, Priority: ${each.priority}`
+            this.allFromTasks += `${each.description} - Cost: ${each.cost}, Priority: ${each.priority}`;
         }
 
-        return `Budget left $${this.budget}.\nYou have completed ${this.completedTasks.length} tasks.\nPending tasks in the renovation plan:\n${this.allFromTasks}`
+        return `Budget left $${this.budget}.\nYou have completed ${this.completedTasks.length} tasks.\nPending tasks in the renovation plan:\n${this.allFromTasks}`;
     }
 }
