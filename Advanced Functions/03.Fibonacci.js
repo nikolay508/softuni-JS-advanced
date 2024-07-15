@@ -1,6 +1,7 @@
 function getFibonator(){
-    let arrNums = [0, 1]
+    let arrNums = [0, 1];
     let count = 0;
+    
     return () => {
         count++;
         if(count === 1){
@@ -10,5 +11,5 @@ function getFibonator(){
             arrNums.push(num);
             return num;
         }
-    };
+    }
 }
