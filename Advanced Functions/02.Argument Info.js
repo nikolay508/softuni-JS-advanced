@@ -1,5 +1,6 @@
 function task(...all){
-    let obj = {}
+    let obj = {};
+    
     for(each of all){
         let type = typeof(each);
         if(obj.hasOwnProperty(type)){
