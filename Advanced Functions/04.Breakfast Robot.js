@@ -36,6 +36,5 @@ function solution(){
         }else if(activity === 'report'){
             return `protein=${sklad.protein} carbohydrate=${sklad.carbohydrate} fat=${sklad.fat} flavour=${sklad.flavour}`;
         }
-    };
-
+    }
 }
