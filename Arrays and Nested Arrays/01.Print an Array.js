@@ -1,3 +1,2 @@
 function task(arr, delimeter){
-    console.log(arr.join(delimeter));
-}
+    console.log(arr.join(delimeter));}
