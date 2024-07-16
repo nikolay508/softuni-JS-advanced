@@ -9,5 +9,4 @@ function task(arr, N){
             final.push(arr[i]);
         }
     }
-    return final;
-}
+    return final; }
