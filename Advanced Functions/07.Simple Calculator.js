@@ -8,12 +8,12 @@ function calculator() {
         add: () => {
             let num1 = Number(obj.selector1.value);
             let num2 = Number(obj.selector2.value);
-            obj.resultArea.value = num1 + num2
+            obj.resultArea.value = num1 + num2;
         },
         subtract: () => {
             let num1 = Number(obj.selector1.value);
             let num2 = Number(obj.selector2.value);
-            obj.resultArea.value = num1 - num2
+            obj.resultArea.value = num1 - num2;
         }
     }
 }
