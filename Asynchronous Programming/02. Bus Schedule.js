@@ -45,3 +45,4 @@ function solve() {
         arrive
     };
 }
+let result = solve();
