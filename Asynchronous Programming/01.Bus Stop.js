@@ -11,7 +11,7 @@ function getInfo() {
         .then(data => {
             nameField.textContent = data.name;
             const busInfo = Object.entries(data.buses);
-            ulField.innerHTML = busInfo.map(x => `<li>Bus ${x[0]} arrives in ${x[1]} minutes</li>`).join('');
+            ulField.innerHTML = busInfo.map(x=> `<li>Bus ${x[0]} arrives in ${x[1]} minutes</li>`).join('');
         })
         .catch(showError)
         function showError(){
