@@ -31,5 +31,4 @@ function attachEvents() {
         textArea.textContent = info;
     }
 }
-
 attachEvents();
