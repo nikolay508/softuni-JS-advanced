@@ -27,7 +27,7 @@ function attachEvents() {
         if(!response.ok){console.error('Error: ', response.status); return};
         const result = await response.json();
         
-        Object.values(result).forEach(x => info += `${x.author}: ${x.content}\n`)
+        Object.values(result).forEach(x => info += `${x.author}: ${x.content}\n`);
         textArea.textContent = info;
     }
 }
