@@ -24,7 +24,7 @@ function attachEvents() {
         let info = '';
 
         const response = await fetch(url);
-        if(!response.ok){console.error('Error: ', response.status); return}
+        if(!response.ok){console.error('Error: ', response.status); return};
         const result = await response.json();
         
         Object.values(result).forEach(x => info += `${x.author}: ${x.content}\n`)
