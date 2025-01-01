@@ -3,14 +3,14 @@
 This repository contains all the lab exercises and my mid-exam solutions from the JavaScript Advanced module at SoftUni. It showcases more complex JavaScript concepts and problem-solving techniques, practiced and tested through the SoftUni Judge system.
 
 ## ✨ Contents
-Lab Exercises: Practical tasks designed to deepen understanding of advanced JavaScript concepts.
+Lab Exercises: Practical tasks designed to deepen understanding of advanced JavaScript concepts.<br>
 Exam Solutions: My completed solutions for the courses exams, demonstrating my proficiency with advanced topics.
 
 ## 📚 Topics Covered
-Advanced functions: Closures, callbacks, and higher-order functions
-Object-oriented programming: Classes and prototypes
-Asynchronous JavaScript: Promises, async/await
-DOM manipulation and events
+Advanced functions: Closures, callbacks, and higher-order functions<br>
+Object-oriented programming: Classes and prototypes<br>
+Asynchronous JavaScript: Promises, async/await<br>
+DOM manipulation and events<br>
 Advanced array methods and data structures
 
 ## 🚀 Technologies Used
