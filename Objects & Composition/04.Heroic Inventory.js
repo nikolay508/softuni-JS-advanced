@@ -1,4 +1,4 @@
-function task(arr){
+function heroicInventory(arr){
     let result = [];
 
     for(const str of arr){
