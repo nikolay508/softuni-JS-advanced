@@ -1,4 +1,4 @@
-function task(arr){
+function lowestPricesInCities(arr){
     let final = [];
 
     for(const str of arr){
