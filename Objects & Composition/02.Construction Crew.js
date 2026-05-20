@@ -1,10 +1,10 @@
-function task(obj){
-    
-    if(obj.dizziness === true){
-        let sum = 0.1 * obj.weight * obj.experience;
-        obj.levelOfHydrated += sum;
-        obj.dizziness = false;
+function constructionCrew(worker) {
+    if (worker.dizziness) {
+        const waterNeeded = worker.weight * worker.experience * 0.1;
+        
+        worker.levelOfHydrated += waterNeeded;
+        worker.dizziness = false;
     }
     
-    return obj;
+    return worker;
 }
