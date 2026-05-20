@@ -1,4 +1,4 @@
-function task(obj){
+function carFactory(obj){
     let final = { model: obj.model, engine: {}, carriage: {}, wheels: [] };
     
     if(obj.power <= 90){
