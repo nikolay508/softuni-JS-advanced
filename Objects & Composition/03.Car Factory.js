@@ -12,7 +12,7 @@ function carFactory(obj){
     final.carriage = { type: obj.carriage, color: obj.color };
 
     if(obj.wheelsize % 2 === 0){
-        obj.wheelsize = obj.wheelsize - 1;
+        obj.wheelsize--;
     };
     final.wheels = new Array(4).fill(obj.wheelsize);
 
