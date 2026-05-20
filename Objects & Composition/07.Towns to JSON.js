@@ -1,4 +1,4 @@
-function TownsToJSON(arr) {
+function townsToJSON(arr) {
     const final = [];
     for (let i = 1; i < arr.length; i++) {
         let [, town, latitude, longitude] = arr[i].split('|');
