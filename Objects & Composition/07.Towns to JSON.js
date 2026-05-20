@@ -1,15 +1,12 @@
-function TownsToJSON(arr){
-    arr.shift();
-    let final = [];
-
-    for(const str of arr){
-        let [space, town, latitude, longitude] = str.split('|');
-
-        latitude = JSON.parse(Number(latitude).toFixed(2));
-        longitude = JSON.parse(Number(longitude).toFixed(2));
-        let name = town.substring(1, town.length-1);
-
-        final.push({Town: name, Latitude: latitude, Longitude: longitude});
+function TownsToJSON(arr) {
+    const final = [];
+    for (let i = 1; i < arr.length; i++) {
+        let [, town, latitude, longitude] = arr[i].split('|');
+        final.push({
+            Town: town.trim(),
+            Latitude: JSON.parse(Number(latitude).toFixed(2)),
+            Longitude: JSON.parse(Number(longitude).toFixed(2))
+        });
     }
     console.log(JSON.stringify(final));
 }
