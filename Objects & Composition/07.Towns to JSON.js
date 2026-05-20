@@ -1,4 +1,4 @@
-function task(arr){
+function TownsToJSON(arr){
     arr.shift();
     let final = [];
 
