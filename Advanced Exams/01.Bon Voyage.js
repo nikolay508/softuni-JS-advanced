@@ -70,4 +70,4 @@ function solve() {
 
         window.location.reload();
     })
-}
+};
